@@ -1,0 +1,13 @@
+name = "ProgrammingProjects"
+uuid = "200ebbdd-a754-426c-a1d1-731cd4ca3fc1"
+authors = ["Gil Junqueira"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.7"
+
+[targets]
+test = ["Test"]
