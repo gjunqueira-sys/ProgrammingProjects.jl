@@ -1,11 +1,9 @@
-
 module webcrawler
 
-using HTTP, Gumbo 
 
-export PAGE_URL
-export LINKS
-export fetchpage
+using HTTP
+using Gumbo
+
 
 
 const PAGE_URL = "https://en.wikipedia.org/wiki/Julia_(programming_language)" 
@@ -23,4 +21,9 @@ end
 
 
 
+
+
+
 end
+
+HTTP
